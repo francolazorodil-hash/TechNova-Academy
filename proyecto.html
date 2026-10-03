@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Academy</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="proyecto.css">
+</head>
+
+<body>
+
+    <!-- HEADER / ENCABEZADO -->
+    <header id="inicio" class="header-principal">
+        <div class="contenedor-header">
+            <div>
+                <span class="etiqueta">FORMACIÓN TECNOLÓGICA</span>
+                <h1>TechNova Academy</h1>
+                <p class="subtitulo">Desarrolla tus habilidades digitales y prepárate para el futuro.</p>
+            </div>
+            <div class="header-icono">💻</div>
+        </div>
+    </header>
+
+    <!-- NAVBAR / NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">TechNova</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programas">Programas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registro">Registro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-contenido">
+                <div>
+                    <span class="etiqueta">TU FUTURO COMIENZA AQUÍ</span>
+                    <h2>Aprende tecnología. <br><span>Construye tu futuro.</span></h2>
+                    <p>Aprende programación, diseño web, inteligencia artificial y ciberseguridad mediante una formación práctica, orientada a proyectos reales y con aprendizaje progresivo.</p>
+                    <div class="botones-hero">
+                        <a href="#programas" class="btn btn-primary btn-lg">Ver programas</a>
+                        <a href="#registro" class="btn btn-outline-primary btn-lg">Registrarme</a>
+                    </div>
+                </div>
+                <div class="hero-imagen">
+                    <div class="circulo">🚀</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN NOSOTROS -->
+        <section id="nosotros" class="seccion nosotros">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <span class="etiqueta">CONÓCENOS</span>
+                    <h2>Sobre TechNova Academy</h2>
+                    <p>Una propuesta de formación enfocada en el desarrollo de habilidades digitales competitivas.</p>
+                </div>
+                <div class="nosotros-flex">
+                    <article class="info-box">
+                        <div class="icono">🎯</div>
+                        <h3>Formación práctica</h3>
+                        <p>Desarrolla conocimientos mediante ejercicios, laboratorios y proyectos aplicados al mundo real.</p>
+                    </article>
+                    <article class="info-box">
+                        <div class="icono">💡</div>
+                        <h3>Aprendizaje progresivo</h3>
+                        <p>Avanza desde los conceptos básicos hasta dominar herramientas tecnológicas avanzadas a tu ritmo.</p>
+                    </article>
+                    <article class="info-box">
+                        <div class="icono">🌎</div>
+                        <h3>Preparación digital</h3>
+                        <p>Adquiere competencias altamente demandadas en el entorno tecnológico y laboral actual.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PROGRAMAS -->
+        <section id="programas" class="seccion programas">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <span class="etiqueta">PROGRAMAS ACADÉMICOS</span>
+                    <h2>Elige tu camino tecnológico</h2>
+                    <p>Conoce nuestras principales áreas de especialización.</p>
+                </div>
+                <div class="grid-programas">
+                    <article class="card programa-card">
+                        <div class="programa-icono">💻</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Desarrollo de Software</h3>
+                            <p class="card-text">Aprende programación lógica, bases de datos y creación de aplicaciones eficientes.</p>
+                            <button class="btn btn-primary btn-programa w-100 mt-2" data-programa="Desarrollo de Software">Me interesa</button>
+                        </div>
+                    </article>
+                    <article class="card programa-card">
+                        <div class="programa-icono">🤖</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Inteligencia Artificial</h3>
+                            <p class="card-text">Comprende los fundamentos de la IA, automatización y modelos de lenguaje actuales.</p>
+                            <button class="btn btn-primary btn-programa w-100 mt-2" data-programa="Inteligencia Artificial">Me interesa</button>
+                        </div>
+                    </article>
+                    <article class="card programa-card">
+                        <div class="programa-icono">🌐</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Diseño Web</h3>
+                            <p class="card-text">Domina HTML, CSS, JavaScript y la creación de interfaces visuales atractivas.</p>
+                            <button class="btn btn-primary btn-programa w-100 mt-2" data-programa="Diseño Web">Me interesa</button>
+                        </div>
+                    </article>
+                    <article class="card programa-card">
+                        <div class="programa-icono">🔐</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ciberseguridad</h3>
+                            <p class="card-text">Aprende bases de seguridad informática, redes y protección de datos personales.</p>
+                            <button class="btn btn-primary btn-programa w-100 mt-2" data-programa="Ciberseguridad">Me interesa</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section id="servicios" class="seccion servicios">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <span class="etiqueta">NUESTROS SERVICIOS</span>
+                    <h2>Servicios académicos</h2>
+                </div>
+                <div class="servicios-flex">
+                    <article class="servicio">
+                        <span>📚</span>
+                        <h3>Cursos especializados</h3>
+                        <p>Malla curricular moderna enfocada 100% en tecnología y demanda laboral.</p>
+                    </article>
+                    <article class="servicio">
+                        <span>🧑‍🏫</span>
+                        <h3>Orientación académica</h3>
+                        <p>Asesoría personalizada para ayudarte a elegir el mejor camino según tus metas.</p>
+                    </article>
+                    <article class="servicio">
+                        <span>🏆</span>
+                        <h3>Desarrollo profesional</h3>
+                        <p>Talleres orientados a potenciar tu perfil digital y tu empleabilidad.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN REGISTRO -->
+        <section id="registro" class="seccion registro">
+            <div class="container">
+                <div class="registro-contenedor">
+                    <div class="registro-info">
+                        <span class="etiqueta">¿QUIERES SABER MÁS?</span>
+                        <h2>Regístrate y recibe información</h2>
+                        <p>Completa el formulario y asegura tu lugar o solicita asesoría detallada sobre nuestros programas.</p>
+                        <ul>
+                            <li>✓ Información académica actualizada</li>
+                            <li>✓ Orientación directa con asesores</li>
+                            <li>✓ Opciones de modalidades flexibles</li>
+                        </ul>
+                    </div>
+                    <div class="formulario-contenedor">
+                        <form id="registroForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                                    <small id="errorNombre" class="error"></small>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="apellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido" placeholder="Tu apellido">
+                                    <small id="errorApellido" class="error"></small>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+                                <small id="errorCorreo" class="error"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <!-- CORREGIDO: Se cambió 'number' por 'tel' para mejor visualización en móviles -->
+                                <input type="tel" class="form-control" id="telefono" placeholder="Número de contacto">
+                                <small id="errorTelefono" class="error"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="programa" class="form-label">Programa de interés</label>
+                                <select id="programa" class="form-select">
+                                    <option value="">Seleccione un programa</option>
+                                    <option value="Desarrollo de Software">Desarrollo de Software</option>
+                                    <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+                                    <option value="Diseño Web">Diseño Web</option>
+                                    <option value="Ciberseguridad">Ciberseguridad</option>
+                                </select>
+                                <small id="errorPrograma" class="error"></small>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label d-block">Modalidad</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="modalidad" id="presencial" value="Presencial">
+                                    <label class="form-check-label" for="presencial">Presencial</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="modalidad" id="virtual" value="Virtual">
+                                    <label class="form-check-label" for="virtual">Virtual</label>
+                                </div>
+                                <small id="errorModalidad" class="error d-block"></small>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="terminos">
+                                <label class="form-check-label" for="terminos">Acepto recibir información académica.</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-registro">Registrar mis datos</button>
+                            <div id="mensajeExito" class="alert alert-success mt-3" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER / PIE DE PÁGINA -->
+    <footer>
+        <div class="container">
+            <h3>TechNova Academy</h3>
+            <p>Formación tecnológica para construir nuevas oportunidades.</p>
+            <p class="copyright">© 2026 TechNova Academy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script propio (Asegúrate de crear tu archivo script.js si deseas que funcione la interactividad) -->
+    <script src="script.js"></script>
+</body>
+
+</html>
